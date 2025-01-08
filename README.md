@@ -1,5 +1,7 @@
 # Web Essentials ~Brian Holt
 ---
+> The code for end project work is going to be my own.
+
 By the end of this course I will code a clone of Wordle, an app that just sold for millions of dollars to the New York Times and touch up on my basics of *html, css and js*.
 
 ## Course Tasks
