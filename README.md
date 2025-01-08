@@ -4,10 +4,28 @@ By the end of this course I will code a clone of Wordle, an app that just sold f
 
 ## Course Tasks
 ---
+<style>
+  .blinking-dot {
+    height: 8px;
+    width: 8px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    animation: blink 2s infinite;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+</style>
+
+> <p><span class="blinking-dot"></span> Current Active Task </p>
 - HTML
   - [x] Tags
   - [x] Common HTML Tags
-  - [ ] Input & Form Tags
+  - [ ] Input & Form Tags <span class="blinking-dot"></span>
   - [ ] Tables, Comments & Hard Returns
   - [ ] Attributes, Classes, & IDs
   - [ ] Organizing HTML
