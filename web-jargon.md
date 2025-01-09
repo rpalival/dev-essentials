@@ -1,5 +1,7 @@
 ### Key Terminologies
+
 ---
+
 | Term | Definition |
 | ---- | --------------------- |
 | HTML | Hyper Text Markup Language |
@@ -9,6 +11,7 @@
 | Self Closing Tag /<br> Void Tags | `< />` |
 
 #### Common Tags
+
 ---
 
 > Tags have default margins based on browser, Be Aware when handling CSS!
@@ -25,3 +28,8 @@
 |list item Tag| `<li>item</li>`| creating individual items in a list
 |Button Tag| `<button>button-name</button>`| Creates clickable button
 |Image Tag| `<img src=" " alt=" " />`| if its background image use CSS otherwise use img tag
+|Input Tag| `<input />`| To gather user input, lot of [types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) available and [attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attributes) <br> 
+|Text Area Tag| `<textarea> </textarea>`| Expandable Text input area
+|Select and Option| `<select>`<br>&nbsp;&nbsp;&nbsp;`<option value=""> item </option>`<br>`</select>`| It's like a dropdown button with list of options to choose value from (not sure if we can choose multiple values)
+|Form Tag| `<form></form>`| A group of html tags related to gathering data from a user, it may include input, textarea, and many other tags.
+|Table Tag| `<table> </table>`| It creates a table with rows and columns along with caption and footer row <br> 1. `<caption></caption>`: Table Title <br> 2. `<thead></thead>`: Column header row <br> 3. `<tbody> </tbody>`: Table body <br> 4. `<tr></tr>`: Table row <br> 5. `<th scope="row"/"col"> </th>`: Header cell <br> 6. `<td> </td>`: Data cell <br> 7. `<tfoot> </tfoot>`: last row showing column summary
