@@ -10,10 +10,10 @@ By the end of this course I will code a clone of Wordle, an app that just sold f
 - HTML
   - [x] Tags
   - [x] Common HTML Tags
-  - [ ] Input & Form Tags 🟠
-  - [ ] Tables, Comments & Hard Returns
-  - [ ] Attributes, Classes, & IDs
-  - [ ] Organizing HTML
+  - [x] Input & Form Tags 🟠
+  - [x] Tables, Comments & Hard Returns
+  - [x] Attributes, Classes, & IDs
+  - [x] Organizing HTML
   - [ ] Head & Meta Tags
   - [ ] HTML Project
 - CSS

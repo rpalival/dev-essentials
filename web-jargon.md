@@ -1,14 +1,18 @@
+
 ### Key Terminologies
 
 ---
 
-| Term | Definition |
-| ---- | --------------------- |
+| Term | Definition | Meaning |
+| ---- | --------------------- | ------ |
 | HTML | Hyper Text Markup Language |
 | HTML Tags | shows what Type of content is inside the tag (semantic meaning) |
 | Opening Tag | `< >` |
 | Closing Tag | `</ >` |
 | Self Closing Tag /<br> Void Tags | `< />` |
+| Attribute | key = "value"| what kind of tag it is and every tag has suitable list of attributes 
+| Class | class = "value" <br> class = "value1 value2 value3"| the value is the styling part and will get implemented for the tag on which this class is used
+
 
 #### Common Tags
 
@@ -33,3 +37,14 @@
 |Select and Option| `<select>`<br>&nbsp;&nbsp;&nbsp;`<option value=""> item </option>`<br>`</select>`| It's like a dropdown button with list of options to choose value from (not sure if we can choose multiple values)
 |Form Tag| `<form></form>`| A group of html tags related to gathering data from a user, it may include input, textarea, and many other tags.
 |Table Tag| `<table> </table>`| It creates a table with rows and columns along with caption and footer row <br> 1. `<caption></caption>`: Table Title <br> 2. `<thead></thead>`: Column header row <br> 3. `<tbody> </tbody>`: Table body <br> 4. `<tr></tr>`: Table row <br> 5. `<th scope="row"/"col"> </th>`: Header cell <br> 6. `<td> </td>`: Data cell <br> 7. `<tfoot> </tfoot>`: last row showing column summary
+| Navigation Tag | `<nav></nav>`| A common block from where user can find the links of all the places they can visit on/from my webpage.
+
+---
+
+#### Common Attributes
+
+---
+
+| Attribute | Syntax | Common values |
+| ---- | --------------------- | ------ |
+| href| `<a href="">` | url link of where you wanna go <br> it can be relative link or absolute link
