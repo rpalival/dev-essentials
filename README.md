@@ -6,11 +6,10 @@ By the end of this course I will code a clone of Wordle, an app that just sold f
 
 ## Course Tasks
 ---
-> 🟠 -> Current Active Task
 - HTML
   - [x] Tags
   - [x] Common HTML Tags
-  - [x] Input & Form Tags 🟠
+  - [x] Input & Form Tags
   - [x] Tables, Comments & Hard Returns
   - [x] Attributes, Classes, & IDs
   - [x] Organizing HTML
