@@ -12,6 +12,10 @@
 | Self Closing Tag /<br> Void Tags | `< />` |
 | Attribute | key = "value"| what kind of tag it is and every tag has suitable list of attributes 
 | Class | class = "value" <br> class = "value1 value2 value3"| the value is the styling part and will get implemented for the tag on which this class is used
+| CSS Rule | selector tag {<br>&nbsp;&nbsp;&nbsp;&nbsp;property: value;<br> }| The tag is called selector<br>the styles defined in the rule will get applied to every matching tag
+|Parent & children Tags|  | The css properties of parent will be applied to its children (Not all properties though)
+|CSS Rule| .class<br> {<br>&nbsp;property: value;<br>}| the dot searches for class name as selector
+
 
 
 #### Common Tags
@@ -48,3 +52,20 @@
 | Attribute | Syntax | Common values |
 | ---- | --------------------- | ------ |
 | href| `<a href="">` | url link of where you wanna go <br> it can be relative link or absolute link
+
+---
+
+#### CSS Properties
+
+---
+
+|Property| example | Meaning
+|-----|-----|------|
+|color| color: red;| font color
+|font-size| font-size: 60px;|
+|font-weight| font-weight: normal;| How thin/thick the font is
+|text-decoration| underline;| underlines the text
+|border| 3px solid pink;| creates a border around the tag of specified thickness and color
+|text-transform| uppercase;| text to uppercase
+|border-radius| 25px;| makes the border corners rounded
+|list-style| upper-roman;|instead of just round dots you can use these

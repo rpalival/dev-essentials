@@ -9,4 +9,11 @@
 3. Know when to use div | article | section. [Difference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning)
 4. use class as a methodology for self-documentation purposes, label every tag with a class and use **descriptive** names
 5. Optimize your code for the "forever" part of it and "writing" part of it
-6. 
+
+---
+
+## CSS
+
+---
+1. **class selectors** in css can be used across different tag types but **tag selectors** will only work for same tags
+2. Name the css **class names** based on **what they are** and not what they look like

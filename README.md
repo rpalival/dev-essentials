@@ -14,10 +14,10 @@ By the end of this course I will code a clone of Wordle, an app that just sold f
   - [x] Tables, Comments & Hard Returns
   - [x] Attributes, Classes, & IDs
   - [x] Organizing HTML
-  - [ ] Head & Meta Tags
-  - [ ] HTML Project
+  - [x] Head & Meta Tags
+  - [x] HTML Project
 - CSS
-  - [ ] Overview & Rules
+  - [x] Overview & Rules
   - [ ] CSS Cascade
   - [ ] IDs & !important
   - [ ] Pseudo-elements
