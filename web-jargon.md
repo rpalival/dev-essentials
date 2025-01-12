@@ -15,6 +15,7 @@
 | CSS Rule                         | selector tag {<br>&nbsp;&nbsp;&nbsp;&nbsp;property: value;<br> } | The tag is called selector<br>the styles defined in the rule will get applied to every matching tag |
 | Parent & children Tags           |                                                                  | The css properties of parent will be applied to its children (Not all properties though)            |
 | CSS Rule                         | .class<br> {<br>&nbsp;property: value;<br>}                      | the dot searches for class name as selector                                                         |
+|||
 
 
 
