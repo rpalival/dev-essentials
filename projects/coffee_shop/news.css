@@ -1,0 +1,95 @@
+/* universal styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+    margin: 8px;
+}
+
+.page{
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "story-1 story-2 story-3"
+        "story-4 story-5 story-5";
+}
+
+
+/* class styles */
+.page-header{
+    grid-area: header;
+}
+.nav-links {
+    grid-area: nav;
+}
+.story-1 {
+    grid-area: story-1;
+}
+.story-2 {
+    grid-area: story-2;
+}
+.story-3 {
+    grid-area: story-3;
+}
+.story-4 {
+    grid-area: story-4;
+}
+.story-5 {
+    grid-area: story-5;
+}
+
+.page-title {
+    text-align: center;
+    font-family:'Snell Roundhand', Times, serif;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.section-link {
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #666;
+    font-family: "futura";
+}
+.section-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px;
+}
+
+.article-title {
+    font-weight: normal;
+}
+.article-img {
+    width: 200px;
+    height: 200px;
+}
+.article-title{
+    text-align: center;
+}
+.article-text{
+    font-size: 12px;
+}
