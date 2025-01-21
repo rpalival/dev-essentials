@@ -54,7 +54,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border: 2px solid black;
-    padding: 20px;
+    padding: 30px;
     list-style: none;
     margin: 0;
 }
@@ -72,20 +72,25 @@ body {
 }
 
 .story {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 6px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.story-3, .story-5 {
+    border-right: 2px solid black;
 }
 
 .article-title {
     font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
 }
 .article-img {
-    width: 200px;
-    height: 200px;
+    display: block;
+    margin: 0 auto;
+    max-height: 250px;
 }
 .article-title{
     text-align: center;
